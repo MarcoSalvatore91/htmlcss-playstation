@@ -23,6 +23,8 @@
     background-color: red;
 }
 
+/* Main */
+
 .viewport-scroll {
     padding-top: 100px;
     min-height: calc(100vh - 100px);
@@ -83,4 +85,13 @@
 .info-console .ps5-devices div {
     height: 200px;
     background-color: red;
+}
+
+/* Game Foreground */
+
+/* TODO REMOVE */
+
+.jumbotron .text-jumbotron-foreground {
+    height: 100%;
+    background-color: blue;
 }
