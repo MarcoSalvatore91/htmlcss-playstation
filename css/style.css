@@ -26,12 +26,9 @@
 .viewport-scroll {
     padding-top: 100px;
     min-height: calc(100vh - 100px);
-
-    /* TODO REMOVE */
-    background-color: chartreuse;
 }
 
-/* Jumbotron */
+/* Jumbotron Buy */
 
 /* TODO REMOVE */
 
@@ -49,4 +46,41 @@
 .jumbotron .text-jumbotron {
     height: 50%;
     background-color: blue;
+}
+
+/* Info Console */
+
+/* TODO REMOVE */
+
+.info-console .ps5 {
+    height: 200px;
+    background-color: aqua;
+}
+
+/* TODO REMOVE */
+
+.info-console .ps5-info div {
+    height: 200px;
+    background-color: yellow;
+}
+
+/* TODO REMOVE */
+
+.info-console .ps5-info div {
+    height: 200px;
+    background-color: yellow;
+}
+
+/* TODO REMOVE */
+
+.info-console .ps5 {
+    height: 200px;
+    background-color: aqua;
+}
+
+/* TODO REMOVE */
+
+.info-console .ps5-devices div {
+    height: 200px;
+    background-color: red;
 }
