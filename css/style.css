@@ -1,0 +1,35 @@
+/* Header */
+
+.header-fix {
+    height: 100px;
+    width: 100%;
+
+    /* TODO REMOVE # */
+    background-color: brown;
+}
+
+/* Header Top */
+
+.logo-sony {
+    /* TODO REMOVE */
+    height: 20%;
+
+    background-color: black;
+}
+
+/* Header Bottom */
+
+.header-nav {
+    /* TODO REMOVE */
+    height: 80%;
+
+    background-color: red;
+}
+
+.viewport-scroll {
+    padding-top: 100px;
+    min-height: calc(100vh - 100px);
+
+    /* TODO REMOVE */
+    background-color: chartreuse;
+}
