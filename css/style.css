@@ -125,3 +125,28 @@
 .explore .explore-devices {
     height: 200px;
 }
+
+/* Playstation Plus */
+
+/* TODO REMOVE */
+
+.plus .row .col-12 {
+    height: 200px;
+    background-color: red;
+}
+
+/* TODO REMOVE */
+
+.plus .row .col-0 {
+    height: 200px;
+    background-color: slategrey;
+}
+
+/* <!-- Discount --> */
+
+
+
+.discount .title-discount {
+    height: 200px;
+}
+
