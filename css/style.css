@@ -144,9 +144,18 @@
 
 /* <!-- Discount --> */
 
-
+/* TODO REMOVE */
 
 .discount .title-discount {
     height: 200px;
+    background-color: yellow;
 }
+
+/* TODO REMOVE */
+
+.discount .img-discount {
+    height: 200px;
+}
+
+
 
