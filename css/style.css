@@ -30,3 +30,23 @@
     /* TODO REMOVE */
     background-color: chartreuse;
 }
+
+/* Jumbotron */
+
+/* TODO REMOVE */
+
+.jumbotron {
+    height: 500px;
+    background-color: grey;
+}
+
+.jumbotron .row {
+    height: 100%;
+}
+
+/* TODO REMOVE */
+
+.jumbotron .text-jumbotron {
+    height: 50%;
+    background-color: blue;
+}
