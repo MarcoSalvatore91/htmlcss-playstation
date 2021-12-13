@@ -110,3 +110,18 @@
 .new-game .library {
     height: 200px;
 }  
+
+/* Explore */
+
+/* TODO REMOVE */
+
+.explore .explore-text {
+    height: 200px;
+    background-color: sandybrown;
+}
+
+/* TODO REMOVE */
+
+.explore .explore-devices {
+    height: 200px;
+}
