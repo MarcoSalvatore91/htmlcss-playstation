@@ -135,9 +135,9 @@
     background-color: red;
 }
 
-/* TODO REMOVE */
+/* TODO REMOVE-INCOMPLETE */
 
-.plus .row .col-0 {
+.plus .row .d-none {
     height: 200px;
     background-color: slategrey;
 }
@@ -157,5 +157,28 @@
     height: 200px;
 }
 
+/* Playstation Now */
 
+/* TODO REMOVE */
 
+.ps-now .row .col-12 {
+    height: 200px;
+    background-color: red;
+}
+
+/* TODO REMOVE-INCOMPLETE */
+
+.ps-now .row .d-none {
+    height: 200px;
+    background-color: slategrey;
+}
+
+/* Social */
+
+/* TODO REMOVE */
+
+.social .col-6 {
+    height: 100px;
+}
+
+/* Footer */
