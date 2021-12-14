@@ -7,47 +7,57 @@
 
 /* Header Top */
 
-.logo-sony {
-    /* TODO REMOVE */
-    height: 20%;
-
-    background-color: black;
+.navbar .container-fluid .logo-header {
+    width: 80px;
 }
 
-/* Header Bottom */
-
-.header-nav {
-    /* TODO REMOVE */
-    height: 80%;
-
-    background-color: red;
+.navbar .nav-item .down-arrow {
+    width: 15px;
+    vertical-align: sub;
 }
 
 /* Main */
 
 .viewport-scroll {
-    padding-top: 100px;
+    padding-top: 150px;
     min-height: calc(100vh - 100px);
 }
 
 /* Jumbotron Buy */
 
-/* TODO REMOVE */
-
-.jumbotron {
-    height: 500px;
-    background-color: grey;
+.jumbotron-head {
+    height: 900px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
 }
 
-.jumbotron .row {
+.jumbotron-head .row {
     height: 100%;
 }
 
-/* TODO REMOVE */
+.jumbotron-head .text-jumbotron {
+    height: 60%;
+}
 
-.jumbotron .text-jumbotron {
-    height: 50%;
-    background-color: blue;
+.jumbotron-head .jumbotron-head-img {
+    height: 100px;
+    width: 450px;
+}
+
+.jumbotron-head .text-jumbotron h1 {
+    font-size: 3rem;
+}
+
+.jumbotron-head .text-jumbotron a {
+    background-color: rgb(205,61,15);
+}
+
+/* Section Top Game */
+
+.top-game img{
+    max-width: 100%;
+    border-radius: 25px;
 }
 
 /* Info Console */
