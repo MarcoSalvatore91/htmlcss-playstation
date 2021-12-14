@@ -4,12 +4,26 @@
     color: dodgerblue;
 }
 
-.text-title h1 {
+.bg-orange {
+    background-color: rgb(205,61,15);
+}
+
+.text-title {
     font-size: 3rem;
 }
 
 .max-w {
     max-width: 100%;
+}
+
+.font-s {
+    font-size: 0.5rem;
+    vertical-align: super;
+}
+
+.border-r{
+    max-width: 100%;
+    border-radius: 25px;
 }
 
 /* Header */
@@ -59,15 +73,10 @@
     width: 450px;
 }
 
-.jumbotron-head .text-jumbotron a {
-    background-color: rgb(205,61,15);
-}
-
 /* Section Top Game */
 
 .top-game img{
     max-width: 100%;
-    border-radius: 25px;
 }
 
 /* Info Console */
@@ -82,15 +91,6 @@
 
 /* Game Foreground */
 
-/* TODO REMOVE */
-
-.jumbotron .text-jumbotron-foreground {
-    height: 100%;
-    background-color: blue;
-}
-
-/* New Game */
-
 .game-foreground {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     height: 900px;
@@ -100,11 +100,9 @@
 
 /* New Game */
 
-/* TODO REMOVE */
-
-.new-game .library {
-    height: 200px;
-}  
+.new-game {
+    background-color: rgb(31,31,31);
+} 
 
 /* Explore */
 
