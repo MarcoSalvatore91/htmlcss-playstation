@@ -26,6 +26,14 @@
     border-radius: 25px;
 }
 
+.bg-lightgrey {
+    background-color: rgb(217,218,220);
+}
+
+.m-150 {
+    margin: 150px 0;
+}
+
 /* Header */
 
 .header-fix {
@@ -93,7 +101,6 @@
 
 .game-foreground {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    height: 900px;
     background-position: center;
     background-size: cover;
 }
@@ -104,51 +111,13 @@
     background-color: rgb(31,31,31);
 } 
 
-/* Explore */
-
-/* TODO REMOVE */
-
-.explore .explore-text {
-    height: 200px;
-    background-color: sandybrown;
-}
-
-/* TODO REMOVE */
-
-.explore .explore-devices {
-    height: 200px;
-}
-
 /* Playstation Plus */
 
-/* TODO REMOVE */
-
-.plus .row .col-12 {
-    height: 200px;
-    background-color: red;
-}
-
-/* TODO REMOVE-INCOMPLETE */
-
-.plus .row .d-none {
-    height: 200px;
-    background-color: slategrey;
+.plus {
+    background-color: rgb(190,188,187);
 }
 
 /* <!-- Discount --> */
-
-/* TODO REMOVE */
-
-.discount .title-discount {
-    height: 200px;
-    background-color: yellow;
-}
-
-/* TODO REMOVE */
-
-.discount .img-discount {
-    height: 200px;
-}
 
 /* Playstation Now */
 
