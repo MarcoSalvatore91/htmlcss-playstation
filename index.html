@@ -15,14 +15,41 @@
 <body class="vh-100">
 
     <!-- Header Top Bottom -->
-
     <header class="header-fix position-fixed">
-        <div class="logo-sony">
+        <div class="logo-sony bg-dark">
+            <div class="text-end py-2 px-4">
+                <span class="text-white fs-3 fw-bold">SONY</span>
+            </div>
         </div>
-        <div class="header-nav row justify-content-between">
-            <div class="col-6 bg-primary"></div>
-            <div class="col-6 bg-red"></div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img class="logo-header me-3" src="img/play_logo.svg" alt="play-logo">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-none d-lg-flex no-wrap">
+                    <li class="nav-item">
+                    <a class="nav-link active d-inline-block fs-5 fw-bolder" href="#">Giochi</a><img class="down-arrow me-3" src="img/chevron-down-solid.svg" alt="down-arrow">
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active d-inline-block fs-5 fw-bolder" href="#">Hardware</a><img class="down-arrow me-3" src="img/chevron-down-solid.svg" alt="down-arrow">
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active d-inline-block fs-5 fw-bolder" href="#">Servizi</a><img class="down-arrow me-3" src="img/chevron-down-solid.svg" alt="down-arrow">
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active d-inline-block fs-5 fw-bolder" href="#">Novità</a><img class="down-arrow me-3" src="img/chevron-down-solid.svg" alt="down-arrow">
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active d-inline-block fs-5 fw-bolder" href="#">Fai Acquisti</a><img class="down-arrow me-3" src="img/chevron-down-solid.svg" alt="down-arrow">
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active d-inline-block fs-5 fw-bolder" href="#">Supporto</a><img class="down-arrow me-3" src="img/chevron-down-solid.svg" alt="down-arrow">
+                    </li>
+                </ul>
+            <form class="d-flex">
+                <i class="fas fa-bars "></i>
+            </form>
         </div>
+  </div>
+</nav>
     </header>
 
     <section class="viewport-scroll">
@@ -30,32 +57,38 @@
         <main>
 
             <!-- Jumbotron Buy -->
-            <section class="jumbotron container-fluid">
-                <img src="" alt="">
-                    <div class="row align-items-end">
-                        <div class="col-12 col-lg-6 text-jumbotron mb-4"></div>
+            <section class="jumbotron-head container-fluid">
+                <div class="row align-items-end container">
+                    <div class="col-12 col-lg-6 text-jumbotron text-white mb-4">
+                        <img class="jumbotron-head-img my-4" src="img/returnal-hero-banner-logo.png" alt="logo returnal">
+                        <h1 class="fw-bold">Rompi il cerchio</h1>
+                        <p class="my-5 fs-4 fw-bolder">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+                        <a class="text-decoration-none text-white fs-4 py-3 px-3 rounded-pill" href="#">Acquista ora</a>
                     </div>
+                </div>
             </section>
 
             <!-- Section Top Game -->
-            <section class="row container-fluid justify-content-center m-auto">
-                <div class="col-6 col-sm-4 col-lg-2 bg-danger border">
-                    <img src="" alt="">
-                </div>
-                <div class="col-6 col-sm-4 col-lg-2 bg-danger border">
-                    <img src="" alt="">
-                </div>
-                <div class="col-6 col-sm-4 col-lg-2 bg-danger border">
-                    <img src="" alt="">
-                </div>
-                <div class="col-6 col-sm-4 col-lg-2 bg-danger border">
-                    <img src="" alt="">
-                </div>
-                <div class="col-6 col-sm-4 col-lg-2 bg-danger border">
-                    <img src="" alt="">
-                </div>
-                <div class="col-6 col-sm-4 col-lg-2 bg-danger border">
-                    <img src="" alt="">
+            <section class="container-fluid mt-5">
+                <div class="top-game row">
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <img class="my-3" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <img class="my-3" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <img class="my-3" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <img class="my-3" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <img class="my-3" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <img class="my-3" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                    </div>
                 </div>
             </section>
 
