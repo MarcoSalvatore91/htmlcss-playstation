@@ -1,3 +1,17 @@
+/* Utilities */
+
+.text-blue {
+    color: dodgerblue;
+}
+
+.text-title h1 {
+    font-size: 3rem;
+}
+
+.max-w {
+    max-width: 100%;
+}
+
 /* Header */
 
 .header-fix {
@@ -45,10 +59,6 @@
     width: 450px;
 }
 
-.jumbotron-head .text-jumbotron h1 {
-    font-size: 3rem;
-}
-
 .jumbotron-head .text-jumbotron a {
     background-color: rgb(205,61,15);
 }
@@ -62,39 +72,12 @@
 
 /* Info Console */
 
-/* TODO REMOVE */
-
 .info-console .ps5 {
-    height: 200px;
-    background-color: aqua;
+    margin-top: 100px;
 }
 
-/* TODO REMOVE */
-
-.info-console .ps5-info div {
-    height: 200px;
-    background-color: yellow;
-}
-
-/* TODO REMOVE */
-
-.info-console .ps5-info div {
-    height: 200px;
-    background-color: yellow;
-}
-
-/* TODO REMOVE */
-
-.info-console .ps5 {
-    height: 200px;
-    background-color: aqua;
-}
-
-/* TODO REMOVE */
-
-.info-console .ps5-devices div {
-    height: 200px;
-    background-color: red;
+.info-console .ps5-info a {
+    background-color: dodgerblue;
 }
 
 /* Game Foreground */
@@ -108,12 +91,14 @@
 
 /* New Game */
 
-/* TODO REMOVE */
+.game-foreground {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+}
 
-.new-game .title-new-game {
-    background-color: yellow;
-    height: 200px;
-}  
+/* New Game */
 
 /* TODO REMOVE */
 
