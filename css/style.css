@@ -44,10 +44,6 @@
 
 /* Hover Effect */
 
-#header-fix .container-fluid a:hover {
-    color: blue;
-}
-
 .shadow-effect {
     border: 3px solid white;
     cursor: pointer;
@@ -59,9 +55,25 @@
     opacity: 0.8;
 }
 
-#jumbotron-head .shadow-effect:hover {
+#jumbotron-head .shadow-effect:hover, #game-foreground .shadow-effect:hover {
     box-shadow: 0 0 0 4px rgb(205,61,15);
     opacity: 0.8;
+}
+
+#info-console .shadow-effect:hover, #explore .shadow-effect:hover{
+    box-shadow: 0 0 0 4px rgb(45,100,231);
+    opacity: 0.8;
+}
+
+#plus .shadow-effect:hover {
+    box-shadow: 0 0 0 4px rgb(217,218,220);
+    opacity: 0.8;
+}
+
+#ps-now .shadow-effect:hover {
+    box-shadow: 0 0 0 4px rgb(255, 255, 255);
+    opacity: 0.8;
+    border: 3px solid black;
 }
 
 /* Header */
@@ -132,7 +144,7 @@ header .lens-img-size {
 }
 
 #info-console #ps5-info a {
-    background-color: dodgerblue;
+    background-color: rgb(13,110,253);
 }
 
 /* Game Foreground */
@@ -153,17 +165,16 @@ header .lens-img-size {
 
 #plus {
     background-color: rgb(190,188,187);
-    max-height: 600px;
+    max-height: 1000px;
 }
 
 #plus .contain-img-multiplayer {
     max-height: 100%;
-    max-width: 100%;
 }
 
 #plus .img-multiplayer {
     height: 100%;
-    width: 100%;
+    width: 90%;
 }
 
 /* Playstation Now */
