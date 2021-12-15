@@ -15,10 +15,10 @@
 <body class="vh-100">
 
     <!-- Header Top Bottom -->
-    <header class="header-fix position-fixed">
-        <div class="logo-sony bg-dark">
+    <header id="header-fix" class="position-fixed">
+        <div id="logo-sony" class="bg-dark">
             <div class="text-end py-2 px-4">
-                <img class="sony-text my-3" src="img/sony_logo.svg" alt="Sony Text">
+                <img id="sony-text" class="my-3" src="img/sony_logo.svg" alt="Sony Text">
             </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -30,29 +30,31 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">Giochi<span><i class="ps-2 fs-6 text-black-50 fas fa-chevron-down"></i></span></a>
+                    <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">Giochi<i class="ps-2 fs-6 text-black-50 fas fa-chevron-down"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">Hardware<span><i class="ps-2 fs-6 text-black-50 fas fa-chevron-down"></i></span></a>
+                    <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">Hardware<i class="ps-2 fs-6 text-black-50 fas fa-chevron-down"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">Servizi<span><i class="ps-2 fs-6 text-black-50 fas fa-chevron-down"></i></span></a>
+                    <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">Servizi<i class="ps-2 fs-6 text-black-50 fas fa-chevron-down"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">Novità<span><i class="ps-2 fs-6 text-black-50 fas fa-chevron-down"></i></span></a>
+                    <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">Novità<i class="ps-2 fs-6 text-black-50 fas fa-chevron-down"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">Fai acquisti<span><i class="ps-2 fs-6 text-black-50 fas fa-chevron-down"></i></span></a>
+                    <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">Fai acquisti<i class="ps-2 fs-6 text-black-50 fas fa-chevron-down"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">Supporto<span><i class="ps-2 fs-6 text-black-50 fas fa-chevron-down"></i></span></a>
+                    <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">Supporto<i class="ps-2 fs-6 text-black-50 fas fa-chevron-down"></i></a>
                   </li>
                 </ul>
                 <form class="d-flex">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                          <a class="text-decoration-none active fs-5 fw-bolder text-dark" aria-current="page" href="#">My Playstation<span><i class="ps-2 fs-6 text-black-50 fas fa-chevron-down"></i></span></a>
-                          <a class="mx-3 text-decoration-none active fs-5 fw-bolder badge rounded-pill bg-secondary" aria-current="page" href="#">Accedi</a>
+                          <a class="text-decoration-none active fs-5 fw-bolder text-dark" aria-current="page" href="#">My PlayStation<span><i class="ps-2 fs-6 text-black-50 fas fa-chevron-down"></i></span></a>
+                          <div class="d-inline-block p-3 mx-3 bg-darkgrey rounded-pill shadow-effect">
+                            <a class="text-white fs-5 text-decoration-none">Accedi</a>
+                          </div>
                           <img class="lens-img-size" src="img/lens.svg" alt="lens">
                         </li>
                     </ul>
@@ -64,23 +66,25 @@
 
     
     <main>
-        <section class="viewport-scroll">
+        <section id="viewport-scroll">
 
             <!-- Jumbotron Buy -->
-            <section class="jumbotron-head container-fluid">
+            <section id="jumbotron-head" class="container-fluid">
                 <div class="row align-items-end container">
                     <div class="col-12 col-lg-6 text-jumbotron text-white mb-4">
-                        <img class="jumbotron-head-img my-4" src="img/returnal-hero-banner-logo.png" alt="logo returnal">
+                        <img id="jumbotron-head-img" class="my-4" src="img/returnal-hero-banner-logo.png" alt="logo returnal">
                         <h1 class="text-title fw-bold">Rompi il cerchio</h1>
                         <p class="my-5 fs-4 fw-bolder">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
-                        <a class="bg-orange text-decoration-none text-white fs-4 py-3 px-3 rounded-pill" href="#">Acquista ora</a>
+                        <div class="d-inline-block p-3 mx-3 bg-orange rounded-pill shadow-effect">
+                            <a class="text-white fs-5 text-decoration-none">Acquista ora</a>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!-- Section Top Game -->
-            <section class="container-fluid my-5">
-                <div class="top-game row">
+            <section class="my-5">
+                <div class="container-fluid top-game row">
                     <div class="col-6 col-sm-4 col-lg-2">
                         <img class="my-3 border-r" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
                     </div>
@@ -103,7 +107,7 @@
             </section>
 
             <!-- Info Console -->
-            <section class="info-console container-fluid">
+            <section id="info-console" class="container-fluid">
                 <div class="row">
                     <div class="ps5 col-12 text-center">
                         <span class="text-blue fw-bolder">PLAY HAS NO LIMITS</span>
@@ -111,7 +115,7 @@
                         <p class="fs-4 fw-bolder mb-5 text-black-50">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
                     </div>
                 </div>
-                <div class="ps5-info col-12 row align-items-center container-fluid">
+                <div id="ps5-info" class="col-12 row align-items-center container-fluid">
                     <div class="col-12 col-md-6 mb-5">
                         <h1 class="mb-4 text-title">Console Playstation 5</h1>
                         <p class="fs-4 fw-bolder mb-5 text-black-50">Sperimenta la nuova generazione di incredibili giochi Playstation.</p>
@@ -148,8 +152,8 @@
             </section>
 
             <!-- Game Foreground -->
-            <div class="game-foreground jumbotron container-fluid mt-5">
-                <section class="jumbotron pb-5 mx-3">
+            <div id="game-foreground" class="container-fluid mt-5">
+                <section class="pb-5 mx-3">
                     <div class="py-5">
                         <div class="row-columns justify-content-center">
                             <div class="col-6 col-lg-4 text-jumbotron-foreground">
@@ -158,7 +162,7 @@
                             <div class="col-12 col-lg-4 text-jumbotron-foreground">
                                 <h1 class="pt-5 pb-3 text-title text-white">Un'avventura cooperativa selvaggia ti attende</h1>
                                 <p class="fs-4 mb-5 text-white">Trova un amico e partite insieme per l'avventura pi&ugrave; folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.</p>
-                                <a class="bg-orange text-decoration-none text-white fs-5 py-2 px-3 rounded-pill" href="#">Acquista Ora</a>
+                                <a class="bg-orange text-decoration-none text-white fs-5 p-3 rounded-pill" href="#">Acquista Ora</a>
                             </div>
                         </div>
                     </div>
@@ -166,7 +170,7 @@
             </div>
 
             <!-- New Game -->
-            <section class="new-game container-fluid">
+            <section id="new-game" class="container-fluid">
                 <div class="title-new-game mx-3">
                     <h1 class="pt-5 pb-3 text-title text-white">Nuove Uscite</h1>
                     <p class="fs-3 mb-5 fw-bolder text-white">Giochi incredibili per PS4 e PS5 disponibili ora</p>
@@ -250,7 +254,7 @@
             </section>
 
             <!-- Explore -->
-            <section class="explore container-fluid">
+            <section id="explore" class="container-fluid">
                 <div class="mx-3">
                     <div class="explore-text text-center">
                         <div>
@@ -263,42 +267,42 @@
                             <img class="max-w" src="img/ps4-slim-homepage-image-block.jpg" alt="">
                             <h1 class="my-5 text-title">Playstation 4</h1>
                             <p class="fs-4 fw-bolder mb-3 text-black-50">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione</p>
-                            <span class="badge rounded-pill bg-primary fs-5">Scopri di pi&uacute;</span>
+                            <span class="badge rounded-pill bg-primary fs-5 p-3">Scopri di pi&uacute;</span>
                         </div>
                         <div class="col-12 col-md-4">
                             <img class="max-w" src="img/double11-202010-tw-psvr.jpg" alt="VR">
                             <h1 class="my-5 text-title">Playstation VR</h1>
                             <p class="fs-4 fw-bolder mb-3 text-black-50">Olte 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
-                            <span class="badge rounded-pill bg-primary fs-5">Scopri di pi&uacute;</span>
+                            <span class="badge rounded-pill bg-primary fs-5 p-3">Scopri di pi&uacute;</span>
                         </div>
                         <div class="col-12 col-md-4">
                             <img class="max-w" src="img/dualshock-4-listing-thumb.jpg" alt="Dualshock 4">
                             <h1 class="my-5 text-title">Accessori</h1>
                             <p class="fs-4 fw-bolder mb-3 text-black-50">Migliora la tua esperienza PS4 con un gamma di accessori ufficiali.</p>
-                            <span class="badge rounded-pill bg-primary fs-5">Scopri di pi&uacute;</span>
+                            <span class="badge rounded-pill bg-primary fs-5 p-3">Scopri di pi&uacute;</span>
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- Playstation Plus -->
-            <section class="plus container-fluid">
+            <section id="plus" class="container-fluid">
                 <div class="m-150">
                     <div class="row align-items-center">
                         <div class="col-12 col-md-6 px-sm-5">
-                            <img class="max-w w-50 my-5" src="img/ps-plus-logo.png" alt="Plus Logo">
+                            <img class="max-w w-50 my-5 my-md-1 my-lg-4" src="img/ps-plus-logo.png" alt="Plus Logo">
                             <p class="fw-bolder fs-5">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
-                            <span class="bg-lightgrey badge rounded-pill text-blue fs-5 my-5">Esplora Playstation Plus</span>
+                            <span class="bg-lightgrey badge rounded-pill text-blue fs-5 my-5 my-md-1 my-lg-4 p-3">Esplora Playstation Plus</span>
                         </div>
-                        <div class="color-g d-none d-md-block col-md-6">
-                            <img class="max-w h-100" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="April Games">
+                        <div class="contain-img-multiplayer d-none d-md-block col-md-6">
+                            <img class="img-multiplayer me-5" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="April Games">
                         </div> 
                     </div>
                 </div>
             </section>
 
             <!-- Discount -->
-            <section class="discount container-fluid">
+            <section id="discount" class="container-fluid">
                 <div class="title-discount text-center">
                     <h1 class="my-5 text-title">Nuovi sconti sul Playstation Store</h1>
                     <p class="fs-3 fw-bolder mb-5 text-black-50">Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutto in un unico posto.</p>
@@ -317,13 +321,13 @@
             </section>
 
             <!-- Playstation Now -->
-            <section class="ps-now container-fluid">
+            <section id="ps-now" class="container-fluid">
                 <div class="m-150">
                     <div class="row align-items-center">
                         <div class="col-12 col-md-6 px-sm-5">
                             <img class="max-w w-50 my-5" src="img/ps-now-logo-two-column.png" alt="Plus Logo">
                             <p class="fw-bolder fs-5 text-white">Ottieni l'accesso immediato a una vastissima raccolta di olte 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
-                            <span class="bg-white badge rounded-pill text-dark fs-5 my-5">Esplora Playstation Now</span>
+                            <span class="bg-white badge rounded-pill text-dark fs-5 my-5 p-3">Esplora Playstation Now</span>
                         </div>
                         <div class="d-none d-md-block col-md-6">
                             <img class="max-w h-100" src="img/ps-now-april-featured-image-block.png" alt="April Games">
