@@ -84,6 +84,7 @@
 
 #top-game img:hover{
     transform: scale(1) translate(0, -10%);
+    cursor: pointer;
 }
 
 /* Header */
