@@ -76,6 +76,16 @@
     border: 3px solid black;
 }
 
+#info-console .ps5-devices .opacity-img:hover {
+    opacity: 1.0;
+    cursor: pointer;
+    border-bottom: 3px solid rgb(13,110,253);
+}
+
+#top-game img:hover{
+    transform: scale(1) translate(0, -10%);
+}
+
 /* Header */
 
 #header-fix {
@@ -133,8 +143,13 @@ header .lens-img-size {
 
 /* Section Top Game */
 
-.top-game img{
+#top-game img{
     max-width: 100%;
+    transition: 1s;
+}
+
+#top-game .border-3 {
+    box-shadow: 0 0 0 4px rgb(13,110,253);
 }
 
 /* Info Console */
@@ -145,6 +160,10 @@ header .lens-img-size {
 
 #info-console #ps5-info a {
     background-color: rgb(13,110,253);
+}
+
+#info-console .ps5-devices .opacity-img {
+    opacity: 0.5;
 }
 
 /* Game Foreground */
