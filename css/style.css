@@ -128,12 +128,8 @@ header .lens-img-size {
     background-size: cover;
 }
 
-#jumbotron-head .row {
-    height: 100%;
-}
-
 #jumbotron-head .text-jumbotron {
-    height: 60%;
+    padding-top: 300px;
 }
 
 #jumbotron-head #jumbotron-head-img {
