@@ -1,19 +1,18 @@
 /* Utilities */
 
-.text-blue {
-    color: dodgerblue;
+.max-w {
+    max-width: 100%;
 }
 
-.bg-orange {
-    background-color: rgb(205,61,15);
+.border-r{
+    max-width: 100%;
+    border-radius: 25px;
 }
+
+/* Text */
 
 .text-title {
     font-size: 3rem;
-}
-
-.max-w {
-    max-width: 100%;
 }
 
 .font-s {
@@ -21,9 +20,18 @@
     vertical-align: super;
 }
 
-.border-r{
-    max-width: 100%;
-    border-radius: 25px;
+.text-blue {
+    color: dodgerblue;
+}
+
+.m-150 {
+    margin: 150px 0;
+}
+
+/* Color */
+
+.bg-orange {
+    background-color: rgb(205,61,15);
 }
 
 .bg-darkgrey {
@@ -34,24 +42,41 @@
     background-color: rgb(217,218,220);
 }
 
-.m-150 {
-    margin: 150px 0;
+/* Hover Effect */
+
+#header-fix .container-fluid a:hover {
+    color: blue;
+}
+
+.shadow-effect {
+    border: 3px solid white;
+    cursor: pointer;
+    transition: box-shadow 1s;
+}
+
+#header-fix .shadow-effect:hover {
+    box-shadow: 0 0 0 4px rgb(54,54,54);
+    opacity: 0.8;
+}
+
+#jumbotron-head .shadow-effect:hover {
+    box-shadow: 0 0 0 4px rgb(205,61,15);
+    opacity: 0.8;
 }
 
 /* Header */
 
-.header-fix {
-    height: 100px;
+#header-fix {
     width: 100%;
 }
 
-header .text-end .sony-text {
+header .text-end #sony-text {
     height: 25px;
 }
 
 header .lens-img-size {
     height: 30px;
-    vertical-align: bottom;
+    vertical-align: sub;
 }
 
 /* Header Top */
@@ -67,29 +92,29 @@ header .lens-img-size {
 
 /* Main */
 
-.viewport-scroll {
+#viewport-scroll {
     padding-top: 150px;
     min-height: calc(100vh - 100px);
 }
 
 /* Jumbotron Buy */
 
-.jumbotron-head {
+#jumbotron-head {
     height: 900px;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
 }
 
-.jumbotron-head .row {
+#jumbotron-head .row {
     height: 100%;
 }
 
-.jumbotron-head .text-jumbotron {
+#jumbotron-head .text-jumbotron {
     height: 60%;
 }
 
-.jumbotron-head .jumbotron-head-img {
+#jumbotron-head #jumbotron-head-img {
     height: 100px;
     width: 450px;
 }
@@ -102,17 +127,17 @@ header .lens-img-size {
 
 /* Info Console */
 
-.info-console .ps5 {
+#info-console .ps5 {
     margin-top: 100px;
 }
 
-.info-console .ps5-info a {
+#info-console #ps5-info a {
     background-color: dodgerblue;
 }
 
 /* Game Foreground */
 
-.game-foreground {
+#game-foreground {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     background-size: cover;
@@ -120,19 +145,30 @@ header .lens-img-size {
 
 /* New Game */
 
-.new-game {
+#new-game {
     background-color: rgb(31,31,31);
 } 
 
 /* Playstation Plus */
 
-.plus {
+#plus {
     background-color: rgb(190,188,187);
+    max-height: 600px;
+}
+
+#plus .contain-img-multiplayer {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#plus .img-multiplayer {
+    height: 100%;
+    width: 100%;
 }
 
 /* Playstation Now */
 
-.ps-now .row .col-12, .ps-now .row {
+#ps-now .row .col-12, #ps-now .row {
     background-color: rgb(22,28,59);
 }
 
